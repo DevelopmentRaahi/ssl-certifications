@@ -832,8 +832,59 @@ color: #ffffff;
   background-color: #fc5a15;
   transition:  all 0.4s linear;
 }
-.cl-fours a.cl-icon{
+ .cl-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;  
+  padding: 1.5rem;
+  height: 30vh;
+  background-color: rgba(195, 195, 195, 0.092);
+  border-radius: 5px;
+  transition: all 0.4s linear;
+} 
+ .cl-icons h4{
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.cl-icons span i{
+  display: inline-block;
+  color: #fff;
+  font-size: 3.5rem;  
+  margin-bottom: 1rem;
+}
+.cl-icons p{
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.cl-icons a {
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.3em;
+  font-weight: 400; 
+  color: #fff;
+  font-family: Space Grotesk;    
+}
+.cl-icons a:hover{
+  color: #fd7e14;
+  transition:  all 0.4s linear;
+
+}
+ .cl-icons a::after{
+  content: " ";
   display: block;
+  width: 0;
+  height: 2px;
+  background: #fd7e14;
+  transition: width .4s;
+}
+.cl-icons:hover{
+  background-color: rgba(255, 255, 255, 0.218);
+}
+.cl-icons:hover  a::after{
+  width: 60%;
 }
 
 
