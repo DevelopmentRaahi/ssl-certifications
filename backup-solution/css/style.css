@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;   
@@ -764,9 +763,85 @@ footer,.footer-section{
 }
 
 
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url('../fonts/652d71790f0d072b7e7416f0_DMSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url('../fonts/668e9e62338ae31dcfe712bd_SpaceGrotesk-Regular.ttf') format('truetype');
+  src: url('../fonts/652d71790f0d072b7e7416f0_DMSans-Medium.ttf') format('truetype');
+}
 
 
 
 /*--------------------------------------------------------------
-# Sections General
+# claud Hero Section
+--------------------------------------------------------------*/
+#claud-hero{
+  padding: 2rem 0;
+  /* background: rgb(12,11,110); */
+background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%);
+color: #ffffff;
+}
+
+.cl-main h1{
+  font-family: Space Grotesk ;
+  font-size: 10rem;
+  font-weight: 500; 
+  margin-bottom: 1rem;  
+  color: #fff;
+}
+.cl-main h1 span:first-child{  
+  margin-left: 5%;
+}
+.cl-main h1 span:last-child{ 
+   display: block;   
+   text-align: center;
+   
+}
+.cl-end {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 52%;
+}
+.cl-end p{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400; 
+  width: 70%;    
+  font-family: Space Grotesk;
+}
+.cl-end a{
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #fd7e14;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  color: #fff;
+  font-family: Space Grotesk;
+  transition:  all 0.4s linear;
+}
+
+.cl-end a:hover{
+  scale: 1.02;
+  color: #fff;
+  background-color: #fc5a15;
+  transition:  all 0.4s linear;
+}
+.cl-fours a.cl-icon{
+  display: block;
+}
+
+
+/*--------------------------------------------------------------
+#  Section
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+#  Section
 --------------------------------------------------------------*/
