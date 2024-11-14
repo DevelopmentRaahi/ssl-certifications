@@ -239,14 +239,14 @@
   </div>
 
   <!-- intro with image and text1 -->
-  <div class="container-fluid py-5" id="intro" >
+  <div class="container-fluid py-5" id="intro int-1" >
     <div class="container">
       <div class="row int-row g-5">
-        <div class="col-6 int-heading">
+        <div class="col-6 int-heading" id="gs-half">
           <h4>B2 Cloud Storage</h4>
           <p>S3 compatible object storage without S3 limits</p>
         </div>
-        <div class="col-6 int-content">
+        <div class="col-6 int-content" >
           <img src="https://cdn.prod.website-files.com/63d32de856f6323a43a277f2/66ecb7b025b5adbe29cfd593_Backup%20%26%20Archive.avif" alt="">
           <div class="intro-btn">
           <p>Always-hot storage for building applications, creating and serving content, and safeguarding your data at 1/5 the cost of legacy providers. Whatever solution or use case, B2 Cloud Storage is open for business.</p>
@@ -1009,8 +1009,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
   <script src="./backup-solution/js/app.js"></script>
-  <script>
+  <script>    
     document.querySelector('.year').innerHTML = new Date().getFullYear()
     document.addEventListener('DOMContentLoaded', function () {
       AOS.init({
@@ -1020,7 +1024,6 @@
       });
       AOS.init({ disable: 'phone' });
     });
-
 
 
   </script>
