@@ -888,7 +888,7 @@ color: #ffffff;
 }
 
 /*--------------------------------------------------------------
-#   intro with image and text
+#   intro with image and text1
 --------------------------------------------------------------*/
 #intro{
   padding: 2rem 0;
@@ -970,9 +970,152 @@ border-left: 4px solid #3b3b3d19;
   transition:  all 0.4s linear;
 }
 
+.int-content.intc1{
+  /* background-color: red; */
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  padding: 2rem ;
+  text-align: right;
+}
+.int-content.intc1 p{
+  font-family:Space Grotesk ;
+  font-size: 1.4rem;
+  font-weight: 400;  
+  /* width: 85%; */
+  margin-top: 1rem;
+}
+
+.int-heading.intc1-heading{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 4px solid #3b3b3d19;
+}
+.int-heading.intc1-heading h4{
+  font-family: DMSans-Bold;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3d47b5;
+  
+}
+.int-heading.intc1-heading p{
+  font-family:Space Grotesk ;
+  font-size: 5.2rem;
+  font-weight: 400;  
+  width: 85%;
+  line-height: 1.3;
+}
+
 /*--------------------------------------------------------------
-#  Section
+#  customers Section
 --------------------------------------------------------------*/
+#customers{
+  padding: 2rem 0;  
+}
+.cus-content{
+  background-color:#F4F6FC;
+  padding: 2rem;
+}
+.cus-content img{
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.cus-content h3{
+  font-family:Space Grotesk ;
+  font-size: 3rem;
+  font-weight: 500;  
+  line-height: 1.3;
+  margin-top: 1rem;
+  color: #37385f;
+}
+.cus-content p{
+  font-family:Space Grotesk ;
+  font-size: 1.4rem;
+  font-weight: 400;  
+  line-height: 1.3;
+  margin-top: 1rem;
+}
+.cus-name{
+  margin-top: 2rem;
+}
+.cus-name span{
+  font-family:Space Grotesk ;
+  font-size: 1.4rem;
+  font-weight: 500; 
+  margin-top: 1rem;
+  color: #37385f;
+}
+.cus-name > p{
+  font-family:Space Grotesk ;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.cus-statics{
+  width: 70%;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.cus-statics .cus-1{
+  border-left: 5px solid #c30010cf;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+.cus-statics .cus-1 span{
+  font-family:Space Grotesk ;
+  font-size: 3rem;
+  font-weight: 500;  
+  color: #37385f;
+  height: auto; 
+}
+.cus-statics .cus-1 > p{
+  font-family:Space Grotesk ;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #414165e4;
+   margin: 0;
+}
+.cus-btn a{
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;  
+  border-radius: 100px;
+  color:  #045185;
+  font-family: Space Grotesk;
+  transition:  all 0.4s linear;
+  margin-right: 1rem;
+}
+.cus-btn a::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #fd7e14;
+  display: block;
+  transition: all 0.4s linear;
+}
+.cus-btn a:hover{
+  color: #ff5805;
+  transition:  all 0.4s linear;
+}
+.cus-btn a:hover::after{
+  width: 100%;
+  transition: all 0.4s linear;
+}
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 #  Section
 --------------------------------------------------------------*/
