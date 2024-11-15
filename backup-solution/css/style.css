@@ -893,15 +893,19 @@ color: #ffffff;
 #intro{
   padding: 2rem 0;
   background-color: rgb(255, 255, 255);
+  
+}
+.int-row{
+  position: relative;
 }
 .int-heading{
   text-align: right;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-  
+  align-items: flex-end; 
 }
+
 .int-heading h4{
   font-family: DMSans-Bold;
   font-size: 1.5rem;
@@ -979,6 +983,7 @@ border-left: 4px solid #3b3b3d19;
   align-items: flex-start; 
   padding: 2rem ;
   text-align: right;
+  border-right: 4px solid #3b3b3d19;
 }
 .int-content.intc1 p{
   font-family:Space Grotesk ;
@@ -994,7 +999,7 @@ border-left: 4px solid #3b3b3d19;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border-left: 4px solid #3b3b3d19;
+  
 }
 .int-heading.intc1-heading h4{
   font-family: DMSans-Bold;

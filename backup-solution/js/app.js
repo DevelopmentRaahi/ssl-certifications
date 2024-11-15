@@ -148,15 +148,12 @@ function backToTop() {
 
   new Swiper(".mySwiper", swiperConfig);
 }
-
     initializeSwiper();
-
     window.addEventListener("resize", function() {
       initializeSwiper();
     });
 
 })();
-
 
 
 
