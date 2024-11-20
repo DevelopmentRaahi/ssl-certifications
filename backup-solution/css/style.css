@@ -781,8 +781,8 @@ footer,.footer-section{
 #claud-hero{
   padding: 2rem 0;
   /* background: rgb(12,11,110); */
-background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%);
-color: #ffffff;
+  background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%);
+  color: #ffffff;
 }
 
 .cl-main h1{
@@ -797,8 +797,18 @@ color: #ffffff;
 }
 .cl-main h1 span:last-child{ 
    display: block;   
-   text-align: center;
-   
+   text-align: center;   
+}
+@media  screen and (max-width: 1200px) {
+  .cl-main h1{
+    text-align: center;
+  }
+  .cl-main h1 span:first-child{  
+  margin-left: 0%;
+  }
+.cl-main h1 span:last-child{ 
+   display: inline; 
+}
 }
 .cl-end {
   position: relative;
@@ -838,7 +848,7 @@ color: #ffffff;
   justify-content: space-between;
   color: #fff;  
   padding: 1.5rem;
-  height: 30vh;
+  height:250px;
   background-color: rgba(195, 195, 195, 0.092);
   border-radius: 5px;
   transition: all 0.4s linear;
@@ -885,6 +895,66 @@ color: #ffffff;
   width: 60%;
 }
 
+
+@media screen and (max-width:1200px) {
+  .cl-icons{
+    height: 300px;
+  }
+  .cl-end {    
+    left: 0;
+    transform: translateX(0);
+    width: 100%;
+  } 
+  .cl-end p{
+    text-align: center;
+    width: 100%;
+  }
+  .cl-end a{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+}
+@media screen and (max-width:1000px) {
+  .cl-main h1{
+    font-size: 7rem;
+  }
+
+}
+@media screen and (max-width:778px) {
+  .cl-main h1{
+    font-size: 5rem;
+  }
+  .cl-icons h4{
+    font-size: 2.3rem;
+  }
+  .cl-icons p{
+    font-size: 1.6rem;
+    font-family: Space Grotesk;
+    width: 80%;
+  }
+  .cl-icons a{
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width:778px) {
+  .cl-main h1{
+    font-size: 4rem;
+  }
+  .cl-icons h4{
+    font-size: 2rem;
+  }
+  .cl-icons p{
+    font-size: 1.1rem;
+    font-family: Space Grotesk;
+    width: 90%;
+  }
+  .cl-icons{
+    height:fit-content;
+  }
+  
+}
 /*--------------------------------------------------------------
 #   intro with image and text1
 --------------------------------------------------------------*/
