@@ -901,13 +901,15 @@ footer,.footer-section{
     height: 300px;
   }
   .cl-end {    
-    left: 0;
-    transform: translateX(0);
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
   } 
   .cl-end p{
     text-align: center;
     width: 100%;
+    padding: 0 2rem;
+    font-size: 2.5rem;
   }
   .cl-end a{
     position: relative;
@@ -919,7 +921,10 @@ footer,.footer-section{
 @media screen and (max-width:1000px) {
   .cl-main h1{
     font-size: 7rem;
-  }
+  } 
+  .cl-end p{
+    font-size: 1.7rem; 
+  } 
 
 }
 @media screen and (max-width:778px) {
@@ -938,7 +943,7 @@ footer,.footer-section{
     align-self: flex-start;
   }
 }
-@media screen and (max-width:778px) {
+@media screen and (max-width:450px) {
   .cl-main h1{
     font-size: 4rem;
   }
@@ -953,7 +958,12 @@ footer,.footer-section{
   .cl-icons{
     height:fit-content;
   }
-  
+  .cl-end p{
+    font-size: 1rem; 
+  } 
+  .cl-end a{
+    font-size: 1rem;
+  }
 }
 /*--------------------------------------------------------------
 #   intro with image and text1
@@ -1266,6 +1276,12 @@ border-left: 4px solid #3b3b3d19;
   transition:  all 0.4s linear;
 }
 
+@media screen and (max-width:850px) {
+  .int-heading p{
+    font-size: 3.2rem;
+  }
+ 
+}
 
 
 
