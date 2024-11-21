@@ -1162,8 +1162,15 @@ border-left: 4px solid #3b3b3d19;
   width: 50px;
   height: 50px;
   text-align: center;
-  background-color: #bdc8e85a;
+  background-color: #cdd4e95a;
   border-radius: 10px;
+}
+.benefit-content .b-icon i {
+  opacity: 0.7;
+  transition: all 0.2s linear;
+}
+.benefit-content:hover .b-icon i {
+  opacity: 1;
 }
 
 .benefit-content p{
