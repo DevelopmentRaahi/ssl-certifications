@@ -1075,7 +1075,7 @@ border-left: 4px solid #3b3b3d19;
   width: 70%;
   display: flex;
   margin-top: 2rem;
-  justify-content: space-between;
+  gap: 4rem;
 }
 .cus-statics .cus-1{
   border-left: 5px solid #c30010cf;
@@ -1216,7 +1216,8 @@ border-left: 4px solid #3b3b3d19;
 
 @media screen and (max-width:1200px) {
   .cl-icons{
-    height: 300px;
+    min-height: 300px;
+    height: fit-content;
   }
   .cl-end {    
     left: 50%;
@@ -1262,6 +1263,11 @@ border-left: 4px solid #3b3b3d19;
   }
   .cl-icons a{
     align-self: flex-start;
+  }
+  .intro-btn .btn-started{
+    padding: 0.8rem 1.2rem ;
+    margin-right: 10px;
+    text-align: center;
   }
 }
 @media screen and (max-width:450px) {
@@ -1338,12 +1344,12 @@ border-left: 4px solid #3b3b3d19;
   .intro-btn .btn-started.learn{
     font-size: 1rem;
   }
+  .cus-content .cus-statics, .cus-content .cus-btn{
+    display: none;
+  }
  
 }
 
-.cus-content .cus-statics, .cus-content .cus-btn{
-  display: none
-}
 
 
 
