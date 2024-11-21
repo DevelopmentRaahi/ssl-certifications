@@ -896,75 +896,6 @@ footer,.footer-section{
 }
 
 
-@media screen and (max-width:1200px) {
-  .cl-icons{
-    height: 300px;
-  }
-  .cl-end {    
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-  } 
-  .cl-end p{
-    text-align: center;
-    width: 100%;
-    padding: 0 2rem;
-    font-size: 2.5rem;
-  }
-  .cl-end a{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%)
-  }
-
-}
-@media screen and (max-width:1000px) {
-  .cl-main h1{
-    font-size: 7rem;
-  } 
-  .cl-end p{
-    font-size: 1.7rem; 
-  } 
-
-}
-@media screen and (max-width:778px) {
-  .cl-main h1{
-    font-size: 5rem;
-  }
-  .cl-icons h4{
-    font-size: 2.3rem;
-  }
-  .cl-icons p{
-    font-size: 1.6rem;
-    font-family: Space Grotesk;
-    width: 80%;
-  }
-  .cl-icons a{
-    align-self: flex-start;
-  }
-}
-@media screen and (max-width:450px) {
-  .cl-main h1{
-    font-size: 4rem;
-  }
-  .cl-icons h4{
-    font-size: 2rem;
-  }
-  .cl-icons p{
-    font-size: 1.1rem;
-    font-family: Space Grotesk;
-    width: 90%;
-  }
-  .cl-icons{
-    height:fit-content;
-  }
-  .cl-end p{
-    font-size: 1rem; 
-  } 
-  .cl-end a{
-    font-size: 1rem;
-  }
-}
 /*--------------------------------------------------------------
 #   intro with image and text1
 --------------------------------------------------------------*/
@@ -1283,6 +1214,132 @@ border-left: 4px solid #3b3b3d19;
  
 }
 
+@media screen and (max-width:1200px) {
+  .cl-icons{
+    height: 300px;
+  }
+  .cl-end {    
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  } 
+  .cl-end p{
+    text-align: center;
+    width: 100%;
+    padding: 0 2rem;
+    font-size: 2.5rem;
+  }
+  .cl-end a{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+}
+@media screen and (max-width:1000px) {
+  .cl-main h1{
+    font-size: 7rem;
+  } 
+  .cl-end p{
+    font-size: 1.7rem; 
+  } 
+  .int-heading p{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:778px) {
+  .cl-main h1{
+    font-size: 5rem;
+  }
+  .cl-icons h4{
+    font-size: 2.3rem;
+  }
+  .cl-icons p{
+    font-size: 1.6rem;
+    font-family: Space Grotesk;
+    width: 80%;
+  }
+  .cl-icons a{
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width:450px) {
+  .cl-main h1{
+    font-size: 4rem;
+  }
+  .cl-icons h4{
+    font-size: 2rem;
+  }
+  .cl-icons p{
+    font-size: 1.1rem;
+    font-family: Space Grotesk;
+    width: 90%;
+  }
+  .cl-icons{
+    height:fit-content;
+  }
+  .cl-end p{
+    font-size: 1rem; 
+  } 
+  .cl-end a{
+    font-size: 1rem;
+  }
+  .int-heading{
+    align-items: center;
+  }
+  .int-heading h4{
+    font-size: 1.2rem;
+  }
+  .int-heading p{
+    text-align: center;
+  }
+  .int-heading.intc1-heading{
+    align-items: center;
+  }
+  .int-heading.intc1-heading p{
+    font-size: 3rem;
+  }
+  .cus-content h3{
+    font-size: 1.5rem;
+  }
+  .cus-name > p{
+    font-size: 1rem;
+  }
+  .cus-statics{
+    width: 100%;
+  }
+  .cus-statics .cus-1 span{
+    font-size: 2rem;
+  }
+  .cus-statics .cus-1 > p{
+    font-size: 1rem;
+  }
+  .cus-btn a{
+    font-size: 1rem;
+  }
+  .cus-statics .cus-1{
+    border-left: 3px solid #c30010cf;
+    display: none;
+  }
+  .int-content.intc1{
+    text-align: center;
+  }
+  .benefit-title p{
+    font-size: 2rem;
+  }
+  .benefit-content p{
+    font-size: 1.2rem;
+  }
+  .benefit-content h4{
+    font-size: 1.7rem;
+  }
+  .intro-btn .btn-started, 
+  .intro-btn .btn-started.learn{
+    font-size: 1rem;
+  }
+ 
+}
 
 
 
