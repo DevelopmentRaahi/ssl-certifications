@@ -781,7 +781,8 @@ footer,.footer-section{
 #claud-hero{
   padding: 2rem 0;
   /* background: rgb(12,11,110); */
-  background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%);
+  /* background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%); */
+  background: linear-gradient(163deg, rgba(33,37,41,1) 0%, rgba(117,71,32,1) 22%, rgba(36,77,112,1) 59%, rgba(40,68,98,1) 87%);
   color: #ffffff;
 }
 
@@ -906,6 +907,7 @@ footer,.footer-section{
 }
 .int-row{
   position: relative;
+  min-height: 100%;
 }
 .int-heading{
   text-align: right;
@@ -913,6 +915,8 @@ footer,.footer-section{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end; 
+  position: sticky;
+  top: 0;
 }
 
 .int-heading h4{
