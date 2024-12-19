@@ -921,6 +921,7 @@ footer,.footer-section{
   font-weight: 600;
   color: #3d47b5;
   margin-bottom: 2rem;
+  width: 90%;
   
 }
 .int-heading p{
@@ -1213,12 +1214,7 @@ footer,.footer-section{
   transition:  all 0.4s linear;
 }
 
-@media screen and (max-width:850px) {
-  .int-heading p{
-    font-size: 3.2rem;
-  }
- 
-}
+
 
 @media screen and (max-width:1200px) {
   .cl-icons{
@@ -1243,14 +1239,21 @@ footer,.footer-section{
   }
 
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
   .cl-main h1{
     font-size: 7rem;
   } 
   .cl-end p{
     font-size: 1.7rem; 
   } 
+  .int-content.intc1 img,
+   .int-content img{
+    width: 80%;
+  }  
   .int-heading p{
+    width: 95%;
+  }
+  .int-heading.intc1-heading p{
     width: 100%;
   }
 
@@ -1277,6 +1280,10 @@ footer,.footer-section{
   }
 }
 @media screen and (max-width:450px) {
+  .int-content.intc1 img,
+   .int-content img{
+    width: 100%;
+  } 
   .cl-main h1{
     font-size: 4rem;
   }
@@ -1297,23 +1304,10 @@ footer,.footer-section{
   .cl-end a{
     font-size: 1rem;
   }
-  .int-heading{
-    align-items: center;
-  }
-  .int-heading h4{
-    font-size: 1.2rem;
-  }
-  .int-heading p{
-    text-align: center;
-  }
-  .int-heading.intc1-heading{
-    align-items: center;
-  }
-  .int-heading.intc1-heading p{
-    font-size: 3rem;
-  }
+  
   .cus-content h3{
     font-size: 1.5rem;
+    line-height: 1.7;
   }
   .cus-name > p{
     font-size: 1rem;
