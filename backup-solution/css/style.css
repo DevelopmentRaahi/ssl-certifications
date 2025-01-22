@@ -854,7 +854,7 @@ footer,.footer-section{
   border-radius: 5px;
   transition: all 0.4s linear;
 } 
- .cl-icons h4{
+ .cl-icons h3{
   color: #fff;
 }
 .cl-icons span i{
@@ -1214,7 +1214,27 @@ footer,.footer-section{
   transition:  all 0.4s linear;
 }
 
+/* faq */
 
+.price_end > div > h3{
+	text-align: center;
+	font-size: 2.5rem;
+	font-family:'Space Grotesk';
+}
+.price_end *{
+  font-family:'Space Grotesk';
+}
+.accordion .accordion-header button {
+  font-size: 1.4rem;
+  font-weight: 600;
+  /* background-color: red; */
+}
+.grid-images .gi-text h3{
+
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  font-family: 'Space Grotesk';
+}
 
 @media screen and (max-width:1200px) {
   .cl-icons{
@@ -1262,7 +1282,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 5rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2.3rem;
   }
   .cl-icons p{
@@ -1287,7 +1307,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 4rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2rem;
   }
   .cl-icons p{
