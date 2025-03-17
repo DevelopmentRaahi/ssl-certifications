@@ -1236,6 +1236,74 @@ footer,.footer-section{
   font-family: 'Space Grotesk';
 }
 
+/* ssl certification */
+#ssl-hero{
+  padding: 5rem 0;  
+}
+.ssl-container h1{
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk';
+  color: #37385f;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  background:linear-gradient(to right, #d6d6d66e, #ffb69160, #ffffff00);
+  padding: 0.5rem 1rem;
+  border-left: 5px solid #fd7e14;
+}
+.ssl-img span{
+  position: relative;
+  display: block;
+}
+
+.ssl-img span a{
+  display:inline-block;
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  font-weight: 600;  
+  color:  #111111;
+  font-family: Space Grotesk;
+  background-color: #f7ae85;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  opacity: 0;
+  z-index: 1;
+  transition:  all 0.4s linear;
+}
+.ssl-img:hover span a{
+  opacity: 1;  
+}
+.ssl-img:hover span img{
+  filter: blur(2px);
+  transition:  all 0.4s linear;
+  transform: translateY(-8px); 
+}
+
+ .ssl-img img{
+  width: 100%;
+  height: auto;
+  transition:  all 0.4s linear;
+}
+ .ssl-img_content{
+  margin-top: 2rem;
+  font-family: 'Space Grotesk';
+}
+ .ssl-img_content h4{   
+  color: #1f1f22;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk';
+ }
+  .ssl-img_content p{
+  font-size: 1.3rem;
+  color: #5d5d5f;
+  font-family: 'Space Grotesk';
+ }
+
 @media screen and (max-width:1200px) {
   .cl-icons{
     min-height: 300px;
