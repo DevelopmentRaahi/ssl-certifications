@@ -1286,6 +1286,7 @@ footer,.footer-section{
  .ssl-img img{
   width: 100%;
   height: auto;
+  opacity: 0.7;
   transition:  all 0.4s linear;
 }
  .ssl-img_content{
@@ -1303,6 +1304,7 @@ footer,.footer-section{
   color: #5d5d5f;
   font-family: 'Space Grotesk';
  }
+
 
 @media screen and (max-width:1200px) {
   .cl-icons{
