@@ -1326,6 +1326,34 @@ footer,.footer-section{
  }
 
 
+/* new ssl tabs */
+.ssl-tabs-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;   
+  font-size: 1.4rem;
+  font-family: 'Space Grotesk';  
+}
+.ssl-tabs-header li{
+  cursor: pointer;
+  list-style: none;
+  color: #ffffff;
+  border-radius: 5px; 
+  padding: 0.7rem 1.3rem;
+  transition: all 0.4s ;  
+  background-color: rgb(37, 37, 37);
+  font-weight: 500;
+}
+.ssl-tabs-header li:hover{
+  color: rgb(37, 37, 37);
+  background-color:  #fd7e14;
+}
+.ssl-tabs-header li.active{
+  color: rgb(37, 37, 37);
+  background-color:  #fd7e14;
+}
+
+
 @media screen and (max-width:1200px) {
   .cl-icons{
     min-height: 300px;
