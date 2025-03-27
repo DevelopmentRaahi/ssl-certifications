@@ -265,24 +265,6 @@ Sign In</a>
 
         </div>
         </div>
-        <script>
-         const tabs = document.querySelector('.ssl-tabs-header');
-          tabs.querySelectorAll('li').forEach((tab, index) => {
-            tab.addEventListener('click', () => {
-              tabs.querySelector('.active').classList.remove('active');
-              tab.classList.add('active');
-              document.querySelector('#ssl-tabs-content').querySelector('#ssl-tabs-content').forEach((content, index) => {
-                content.style.display = 'none';
-              });
-              document.querySelector(`#ssl-tabs-content>div:nth-child(${index + 1})`).style.display = 'block';
-          })
-            
-          });
-        </script>
-
-      
-
-
       <!-- old section -->
       <div class="row ssl-content g-5">
         <div class="col-12 col-md-6 col-lg-4 ssl-img">
