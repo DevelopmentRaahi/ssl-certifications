@@ -1305,6 +1305,26 @@ footer,.footer-section{
   font-family: 'Space Grotesk';
  }
 
+ .ssl-nav{
+  font-family: 'DMSans-Bold';
+ }
+ .ssl-nav button{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #0126a1;
+  padding: 0.5rem 1rem;  
+  transition:  all 0.4s linear;
+ } 
+ .ssl-tables h5{
+  color: #0014aa;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-family: 'Space Grotesk';
+ }
+ .price_box.price-content:hover{
+  transform:translateY(0px); ;
+ }
+
 
 @media screen and (max-width:1200px) {
   .cl-icons{
