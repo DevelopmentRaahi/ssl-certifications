@@ -1252,7 +1252,10 @@ footer,.footer-section{
   border-left: 5px solid #fd7e14;
 }
 .ssl-img{
-  border: 1px solid #fd7d142f; 
+  border: 1px solid #fd7d142f;  
+  transition:  all 0.4s linear; 
+}
+.ssl-img:hover{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -1265,14 +1268,19 @@ footer,.footer-section{
 }
  .ssl-img_content a{
   display:block;  
-  font-size: 1.1rem;
-  font-weight: 600;  
-  color:  #111111;
+  font-size: 1.2rem;
+  font-weight: 500;  
+  color:  #131212;
   font-family: Space Grotesk;
-  background-color: #f7ae85;
+  background-color: #5c9efb;
   padding: 0.8rem 1.3rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 10px;   
+  transition:  all 0.4s linear;
+}
+ .ssl-img_content a:hover{
+  background-color: #fd7e14;
+  color: #fff;
   transition:  all 0.4s linear;
 }
 .ssl-img_content h5{
@@ -1292,14 +1300,15 @@ footer,.footer-section{
   font-family: 'Space Grotesk';
 }
  .ssl-img_content h4{   
-  color: #1f1f22;
+  color: #5454d4cc;
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0rem;
   font-family: 'Space Grotesk';
  }
 .ssl-img_content p{ 
-   background-color: #a3494334;
+  background-color: #a3494328;
+  border-radius: 3px;
   font-size: 1.3rem;
   color: #0a0a0a;
   font-weight: 500;
