@@ -1286,7 +1286,8 @@ footer,.footer-section{
 }
 .hero-features{
   display: flex;
-  gap: 2rem;
+  flex-direction: row; 
+  gap: 2.3rem;
   align-items: center;
   justify-content: center;
 }
@@ -1295,7 +1296,7 @@ footer,.footer-section{
   font-weight: 500; 
   color: #37385f;
   font-family: 'Space Grotesk';  
-  padding-right: 1rem;
+  
   
 }
 .hero-features span i{  
