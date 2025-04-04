@@ -1327,11 +1327,11 @@ footer,.footer-section{
   border: 1px solid #fd7d144f; 
   padding: 1rem;
   border-radius: 10px;  
-  transition:  all 0.4s linear;
+  transition:  all 0.4s linear; 
 }
 .ssl-img > div:hover{
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transition:  all 0.4s linear;
+  transition:  all 0.4s linear;  
 }
 
 
@@ -1403,14 +1403,12 @@ footer,.footer-section{
   font-family: 'Space Grotesk';
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
- 
+  margin-bottom: 1rem; 
  }
  .ssl-list li i{
   color: #40648d76;
   margin-right: 10px;
  }
-
  .ssl-nav{
   font-family: 'DMSans-Bold';
  }
