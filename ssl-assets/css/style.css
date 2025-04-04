@@ -1305,6 +1305,7 @@ footer,.footer-section{
 }
 
 
+
 /* ssl certification */
 
 #ssl-hero{
@@ -1321,14 +1322,19 @@ footer,.footer-section{
   padding: 0.5rem 1rem;
   border-left: 5px solid #fd7e14;
 }
-.ssl-img{
-  border: 1px solid #fd7d142f;  
-  transition:  all 0.4s linear; 
+
+.ssl-img > div{  
+  border: 1px solid #fd7d144f; 
+  padding: 1rem;
+  border-radius: 10px;  
+  transition:  all 0.4s linear;
 }
-.ssl-img:hover{
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+.ssl-img > div:hover{
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition:  all 0.4s linear;
 }
+
+
 .ssl-img img{  
   padding: 2rem;
 }
@@ -1345,7 +1351,7 @@ footer,.footer-section{
   background-color: #5c9efb;
   padding: 0.8rem 1.3rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;   
+  border-radius: 5px;   
   transition:  all 0.4s linear;
 }
  .ssl-img_content a:hover{
@@ -1415,6 +1421,10 @@ footer,.footer-section{
   padding: 0.5rem 1rem;  
   transition:  all 0.4s linear;
  } 
+ .nav-tabs .nav-link.active{
+  background-color: #fd7e14 !important;
+  color: #fff;
+ }
 .ssl-tables{
   font-family: 'Space Grotesk';
   font-size: 1.3rem;
