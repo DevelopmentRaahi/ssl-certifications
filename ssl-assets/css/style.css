@@ -1580,6 +1580,74 @@ footer,.footer-section{
 }
 
 
+
+.services .service-item.item-neon-green {
+  border-bottom: 3px solid #8fe13c;
+}
+
+.services .service-item.item-neon-green .icon {
+  color: #8fe13c;;
+  background: rgba(243, 38, 140, 0.1);
+}
+
+.services .service-item.item-neon-green .read-more {
+  color: #8fe13c;;
+}
+
+.services .service-item.item-neon-green:hover {
+  background: #8fe13c;;
+}
+
+
+.services .service-item.item-grey {
+  border-bottom: 3px solid #504c56;
+}
+
+.services .service-item.item-grey .icon {
+  color: #504c56;
+  background: rgba(102, 16, 242, 0.1);
+}
+
+.services .service-item.item-grey .read-more {
+  color: #504c56;
+}
+
+.services .service-item.item-grey:hover {
+  background: #504c56;
+}
+
+
+.services .service-item.item-blue-green {
+  border-bottom: 3px solid #0691b3;
+}
+
+.services .service-item.item-blue-green .icon {
+  color: #0691b3;
+  background: rgba(102, 16, 242, 0.1);
+}
+
+.services .service-item.item-blue-green .read-more {
+  color: #0691b3;
+}
+
+.services .service-item.item-blue-green:hover {
+  background: #0691b3;
+}
+.services .service-item:hover h3,
+.services .service-item:hover p,
+.services .service-item:hover .read-more {
+  color: #fff;
+}
+
+.services .service-item:hover .icon {
+  background: #fff;
+}
+
+
+#services{
+  padding: 2rem 0;
+}
+
 /*--------------------------------------------------------------
 # benefit Section
 --------------------------------------------------------------*/
