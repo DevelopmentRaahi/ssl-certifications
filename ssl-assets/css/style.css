@@ -1311,7 +1311,7 @@ footer,.footer-section{
 
 
 #ssl-hero{
-  padding: 5rem 0;  
+  padding: 3rem 0;  
  
 }
 .ssl-container {
@@ -1320,7 +1320,6 @@ footer,.footer-section{
   align-items: center;
 }
 .ssl-container h1{
-  
   font-size: 3rem;
   font-weight: 600;
   font-family: 'Space Grotesk';
@@ -1329,7 +1328,7 @@ footer,.footer-section{
   letter-spacing: 2px;
    width: max-content; 
   background:linear-gradient(to right, #d6d6d66e, #ffb69160, #ffffff00);
-  padding: 0.6rem 1rem;
+  padding: 0.3rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
