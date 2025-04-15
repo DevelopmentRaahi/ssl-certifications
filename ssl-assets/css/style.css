@@ -1410,8 +1410,14 @@ footer,.footer-section{
  .ssl-list {
   list-style: none;
    position: relative;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
  }
  .ssl-list li{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 1.3rem;
   color: #5d5d5f;
   font-family: 'Space Grotesk';
