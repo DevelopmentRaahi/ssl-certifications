@@ -1412,26 +1412,29 @@ footer,.footer-section{
   padding: 0;
   margin: 0 auto;
   max-width: 300px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .ssl-list li {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 0.8rem;
-  font-size: 1.3rem;
-  color: #5d5d5f;
+  gap: 6px;
+  font-size: 16px;
+  color: #333;
   font-family: 'Space Grotesk', sans-serif;
+  line-height: 1.6;
 }
 
 .ssl-list li i {
-  color: #2e7d32;
-  font-size: 1.3rem;
+  width: 50px;
+  min-width: 70px; 
+  text-align: right;
+  color: #28a745;
+  font-size: 19px;
+  line-height: 1.8;
+  
 }
+
+
 
 .ssl-nav{
   font-family: 'DMSans-Bold';
