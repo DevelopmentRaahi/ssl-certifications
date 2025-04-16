@@ -1474,6 +1474,7 @@ footer,.footer-section{
  }
 
 
+
 @media screen and (max-width:1200px) {
   .cl-icons{
     min-height: 300px;
@@ -1536,15 +1537,23 @@ footer,.footer-section{
     margin-right: 10px;
     text-align: center;
   }
+  .ssl-nav{
+    justify-content: flex-start;
+    gap: 1.2rem;
+    position: relative;
+  }
   #ssl-hero .row >ul button{
   display: block;
-  width: 90%;  
-  text-align: left;
+  width: 100%;  
+  text-align: left;  
   }
   #ssl-hero .row >ul button::before{
     content: " >";
     margin-right: 10px;
-  }
+  } 
+  #ssl-hero .row >ul button{
+  border-bottom: 1px solid #f09f1d;
+ } 
   .ssl-container h1{
     font-size: 2.2rem;
     left: 0%;
