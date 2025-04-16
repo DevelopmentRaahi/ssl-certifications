@@ -1311,7 +1311,7 @@ footer,.footer-section{
 
 
 #ssl-hero{
-  padding: 3rem 0;  
+  padding: 1rem 0;  
  
 }
 .ssl-container {
@@ -1324,7 +1324,7 @@ footer,.footer-section{
   font-weight: 600;
   font-family: 'Space Grotesk';
   color: #37385f;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   letter-spacing: 2px;
    width: max-content; 
   background:linear-gradient(to right, #d6d6d66e, #ffb69160, #ffffff00);
@@ -1339,13 +1339,13 @@ footer,.footer-section{
 .ssl-img > div{  
   
   border: 1px solid #fd7d144f; 
-  padding: 1rem;
+  padding: 0.3rem;
   border-radius: 10px;  
   transition:  all 0.4s linear; 
 }
 .ssl-img > div:hover{
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transition:  all 0.4s linear;  
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition:  all 0.4s ease;  
 }
 
 
