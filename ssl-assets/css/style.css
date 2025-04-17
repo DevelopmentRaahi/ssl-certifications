@@ -1341,7 +1341,7 @@ footer,.footer-section{
   transition:  all 0.4s linear; 
 }
 .ssl-img > div:hover{
-  box-shadow: 0 4px 16px rgba(232, 170, 36, 0.9);
+  box-shadow: 0 4px 16px rgba(9, 100, 219, 0.9);
   transition:  all 0.4s linear;  
 }
 
